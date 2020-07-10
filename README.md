@@ -24,7 +24,7 @@ memory issues.
 ## Usage
 
 ```python
-from pandas_weighting.func import weight
+from pandas_weighting import weight
 
 df.col.pipe(weight, df.weights).describe()
 ```
@@ -42,7 +42,7 @@ df.col.weight(df.weights).describe()
 
 ```python
 import pandas as pd
-from pandas_weighting.func import weight
+from pandas_weighting import weight
 
 pd.Series.weight = weight
 pd.DataFrame.weight = weight

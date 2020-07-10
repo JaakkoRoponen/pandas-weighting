@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='pandas-weighting',
-    version='0.0.1',
+    version='0.0.2',
     author='Jaakko Roponen',
     description='General level weighting of Pandas Dataframes',
     long_description=long_description,

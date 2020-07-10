@@ -1,7 +1,7 @@
 import unittest
 
 import pandas as pd
-from pandas_weighting.func import weight
+from pandas_weighting import weight
 
 pd.Series.weight = weight
 pd.DataFrame.weight = weight
